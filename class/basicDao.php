@@ -1,15 +1,10 @@
 <?php
 
-    class BasicDao {
-        
-        // Connection
-        private $conn;
-        
-        // METHODS
+    abstract class BasicDao {
         
         // Constructor : Db connection
-        public function __construct($db){
-            $this->conn = $db;
+        public function testInheritance {
+            echo "Test inheritance";
         }
     
         

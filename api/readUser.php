@@ -10,6 +10,8 @@
 
     $items = new UserDao($db);
 
+    // $items->testInheritence();
+
     // Tested with a GET request
 
     $stmt = $items->getUsers();

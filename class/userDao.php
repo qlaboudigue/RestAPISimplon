@@ -1,6 +1,7 @@
 <?php
 
     include_once '../class/user.php';
+    // include_once '../class/basicDao.php'
 
     class UserDao {
         
