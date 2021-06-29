@@ -32,6 +32,7 @@
             array_push($userArr["body"], $e);
         }
         echo json_encode($userArr);
+        return json_encode($userArr);
     }
 
     else{

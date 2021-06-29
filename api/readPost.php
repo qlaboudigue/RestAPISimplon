@@ -58,6 +58,7 @@
             array_push($postArr["body"], $e);
         }
         echo json_encode($postArr);
+        return json_encode($postArr);
     }
 
     else{
